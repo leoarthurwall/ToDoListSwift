@@ -14,3 +14,7 @@ struct Task : Identifiable {
     var id = String()
     var todoItem = String()
 }
+
+class TaskStore : ObservableObject {
+    @Published var tasks = [Task]()
+}
