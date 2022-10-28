@@ -17,7 +17,9 @@ struct ListView: View {
     
     var body: some View {
         List {
-            ListRowView(title: "this is the first title")
+            ForEach( items, id: \.self) { item in
+                ListRowView(title: item )
+            }
         }
             .navigationTitle("✎ Todo List")
     }
