@@ -11,8 +11,11 @@ struct ListView: View {
     var body: some View {
         List {
             Text("Hello, World!")
+            Image(systemName: "square.and.pencil")
+
+            
         }
-        .navigationTitle("Todo List")
+            .navigationTitle("✎ Todo List")
     }
 }
 
