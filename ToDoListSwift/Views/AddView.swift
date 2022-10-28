@@ -13,7 +13,15 @@ struct AddView: View {
     
     var body: some View {
         ScrollView {
-            TextField("Type something here...", text: $textFieldText )
+            VStack {
+                TextField("Type something here...", text: $textFieldText )
+                    .padding(.horizontal)
+                    .frame(height: 55)
+                    .background(Color(.lightGray).opacity(0.15))
+                .cornerRadius(10)
+            }
+            .padding(14)
+                
         }
         .navigationTitle("✚ Add an Item")
     }
