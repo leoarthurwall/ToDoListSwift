@@ -10,8 +10,13 @@ import SwiftUI
 struct ListView: View {
     var body: some View {
         List {
-            Text("Hello, World!")
-            Image(systemName: "square.and.pencil")
+            HStack{
+                Image(systemName: "checkmark.circle")
+                Text("First list item!")
+                Spacer()
+            }
+            
+
 
             
         }
