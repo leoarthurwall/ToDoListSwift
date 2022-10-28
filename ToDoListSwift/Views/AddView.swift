@@ -19,6 +19,18 @@ struct AddView: View {
                     .frame(height: 55)
                     .background(Color(.lightGray).opacity(0.15))
                 .cornerRadius(10)
+                
+                Button(action: {
+                
+                }, label: {
+                    Text("Save".uppercased())
+                        .foregroundColor(.white)
+                        .font(.headline)
+                        .frame(height: 55)
+                        .frame(maxWidth: .infinity)
+                        .background(Color.accentColor)
+                        .cornerRadius(10)
+                })
             }
             .padding(14)
                 
