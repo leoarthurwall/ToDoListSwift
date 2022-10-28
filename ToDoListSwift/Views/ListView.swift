@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    @State var items: [String] = [
+        "this is the first title",
+        "this is the second title",
+        "this is the third title"
+    ]
+    
     var body: some View {
         List {
             ListRowView(title: "this is the first title")
-            
-
-
-            
         }
             .navigationTitle("✎ Todo List")
     }
