@@ -28,12 +28,4 @@ struct ListView_Previews: PreviewProvider {
     }
 }
 
-struct ListRowView: View {
-    var body: some View {
-        HStack{
-            Image(systemName: "checkmark.circle")
-            Text("First list item!")
-            Spacer()
-        }
-    }
-}
+
