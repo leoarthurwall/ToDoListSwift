@@ -11,7 +11,11 @@ import SwiftUI
 struct ToDoListSwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ListView()
+            //Navigation view here will display it across the whole app
+            NavigationView {
+                ListView()
+
+            }
         }
     }
 }
