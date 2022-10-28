@@ -35,7 +35,7 @@ struct AddView: View {
             .padding(14)
                 
         }
-        .navigationTitle("✚ Add an Item")
+        .navigationTitle("Add an Item ✚")
     }
 }
 
