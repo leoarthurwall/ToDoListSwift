@@ -15,7 +15,6 @@ struct ListView: View {
         "this is the third title",
         "this is the forth item",
         "this is the fifth item"
-
     ]
     
     var body: some View {
