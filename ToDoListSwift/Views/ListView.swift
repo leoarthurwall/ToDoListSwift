@@ -13,7 +13,8 @@ struct ListView: View {
        ItemModel(title: "this is the first title", isCompleted: false),
        ItemModel(title: "this is the second title", isCompleted: true),
        ItemModel(title: "this is the third", isCompleted: true),
-       ItemModel(title: "this is the forth", isCompleted: false)
+       ItemModel(title: "this is the forth", isCompleted: false),
+       ItemModel(title: "this is the fifth", isCompleted: false)
     ]
     
     var body: some View {
