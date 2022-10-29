@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct ItemModel {
+    let title: String
+    let isCompleted : Bool
+}
