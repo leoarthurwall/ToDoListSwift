@@ -21,7 +21,15 @@ struct ListRowView: View {
 }
 
 struct ListRowView_Previews: PreviewProvider {
+    
+    static var item1 = ItemModel(title: "first Item", isCompleted: true)
+    static var item2 = ItemModel(title: "second Item", isCompleted: false)
+    
     static var previews: some View {
-        ListRowView(title: "this is the first title")
+        Group {
+            ListRowView(item: item1)
+            ListRowView(item: item2)
+        }
+        .previewLayout(.sizeThatFits)
     }
 }
