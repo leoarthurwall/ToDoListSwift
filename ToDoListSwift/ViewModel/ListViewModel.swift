@@ -22,7 +22,9 @@ class ListViewModel {
             ItemModel(title: "this is the second title", isCompleted: true),
             ItemModel(title: "this is the third", isCompleted: true),
             ItemModel(title: "this is the forth", isCompleted: false),
-            ItemModel(title: "this is the fifth", isCompleted: false)
+            ItemModel(title: "this is the fifth", isCompleted: false),
+            ItemModel(title: "this is the sixth", isCompleted: true)
+
         ]
         items.append(contentsOf: newItems)
     }
