@@ -18,7 +18,7 @@ struct ListView: View {
     
     var body: some View {
         List {
-            ForEach( items, id: \.self) { item in
+            ForEach( items) { item in
                 ListRowView(title: item )
             }
         }
