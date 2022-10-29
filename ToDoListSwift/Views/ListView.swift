@@ -19,7 +19,8 @@ struct ListView: View {
     var body: some View {
         List {
             ForEach( items) { item in
-                ListRowView(title: item )
+//                ListRowView(title: item )
+                Text("hi")
             }
         }
         .listStyle(PlainListStyle())
