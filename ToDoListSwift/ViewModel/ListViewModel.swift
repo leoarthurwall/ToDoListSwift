@@ -26,6 +26,7 @@ class ListViewModel {
         ]
         items.append(contentsOf: newItems)
     }
+    //deleteItem and moveItem are referencing the items array var above
     func deleteItem(indexSet: IndexSet) {
         items.remove(atOffsets: indexSet)
     }
