@@ -9,12 +9,11 @@ import SwiftUI
 
 struct ListView: View {
     
-    @State var items: [String] = [
-        "this is the first title",
-        "this is the second title",
-        "this is the third title",
-        "this is the forth item",
-        "this is the fifth item"
+    @State var items: [ItemModel] = [
+       ItemModel(title: "this is the first title", isCompleted: false),
+       ItemModel(title: "this is the second title", isCompleted: true),
+       ItemModel(title: "this is the third", isCompleted: true),
+       ItemModel(title: "this is the forth", isCompleted: false)
     ]
     
     var body: some View {
