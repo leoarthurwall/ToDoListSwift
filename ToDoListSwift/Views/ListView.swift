@@ -21,8 +21,8 @@ struct ListView: View {
         List {
             ForEach( items) { item in
                 ListRowView(item: item )
-                
             }
+            .onDelete(perform: { indexSet in items.remove(atOffsets:    indexSet)})
         }
         .listStyle(PlainListStyle())
             .navigationTitle("Todo List ✎")
