@@ -41,6 +41,12 @@ struct AddView: View {
         //tells presentation mode to go back to prev page once button is actioned
         presentationMode.wrappedValue.dismiss()
     }
+    func textIsAppropriate () -> Bool {
+        if textFieldText.count < 3 {
+            return false
+        }
+        return true
+    }
 }
 
 struct AddView_Previews: PreviewProvider {

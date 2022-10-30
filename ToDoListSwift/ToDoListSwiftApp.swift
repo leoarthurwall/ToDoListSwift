@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+//@main
 struct ToDoListSwiftApp: App {
     
     // created a state object for the list view model so it can be access across the app
