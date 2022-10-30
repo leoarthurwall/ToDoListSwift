@@ -41,9 +41,12 @@ class ListViewModel: ObservableObject {
         let newItem = ItemModel(title: title, isCompleted: false)
         items.append(newItem)
     }
+    
+    // finds the index of the item within the array. matching the clicked item's id to it's array id.
+    // toggles the item's completion status
     func updateItem(item: ItemModel) {
         if let index = items.firstIndex(where: { $0.id == item.id}) {
-          
+            items[index] = ItemModel(title: item.title, isCompleted: !item.isCompleted)
         }
     }
     
