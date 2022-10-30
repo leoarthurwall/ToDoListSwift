@@ -20,6 +20,7 @@ struct ToDoListSwiftApp: App {
                 ListView()
 
             }
+            .environmentObject(listViewModel)
         }
     }
 }
