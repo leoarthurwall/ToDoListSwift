@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AddView: View {
+    @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var listViewModel: ListViewModel
     @State var textFieldText: String = ""
     
@@ -37,6 +38,8 @@ struct AddView: View {
     }
     func saveButtonPresssed () {
         listViewModel.addItem(title: textFieldText)
+        //tells presentation mode to go back to prev page once button is actioned
+        presentationMode.wrappedValue.dismiss()
     }
 }
 
