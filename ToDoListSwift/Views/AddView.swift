@@ -38,9 +38,7 @@ struct AddView: View {
                 
         }
         .navigationTitle("Add an Item ✚")
-        .alert(isPresented: $showAlert, content: {
-            //Content
-        })
+        .alert(isPresented: $showAlert, content: getAlert)
     }
     func saveButtonPresssed () {
         if textIsAppropriate() {
@@ -51,9 +49,14 @@ struct AddView: View {
     }
     func textIsAppropriate () -> Bool {
         if textFieldText.count < 3 {
+            showAlert.toggle()
+            alertTitle = "Your task needs atleast 3 characters to be added 😁"
             return false
         }
         return true
+    }
+    func getAlert() -> Alert {
+        return Alert(title: Text(alertTitle))
     }
 }
 
