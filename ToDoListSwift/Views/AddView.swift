@@ -36,7 +36,7 @@ struct AddView: View {
         .navigationTitle("Add an Item ✚")
     }
     func saveButtonPresssed () {
-        
+        listViewModel.addItem(title: textFieldText)
     }
 }
 
