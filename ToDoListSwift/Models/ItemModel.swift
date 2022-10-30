@@ -7,6 +7,8 @@
 
 import Foundation
 
+//Immutable Struct
+
 struct ItemModel: Identifiable {
     let id: String
     let title: String
@@ -19,4 +21,20 @@ struct ItemModel: Identifiable {
         self.title = title
         self.isCompleted = isCompleted
     }
+    //UPDATES ItemModel - uses same id & title and toggled isCompleted status
+    func updateCompleted() -> ItemModel {
+        return ItemModel(id: id, title: title, isCompleted: !isCompleted)
+    }
 }
+
+
+
+/*
+ Now have 2 different ItemModels:
+ 1 - automatically creates ID, used for adding item
+ ItemModel(title: <#T##String#>, isCompleted: <#T##Bool#>)
+ 
+ 2 - already have an id, is used for updating items
+ ItemModel(id: <#T##String#>, title: <#T##String#>, isCompleted: <#T##Bool#>)
+ */
+
