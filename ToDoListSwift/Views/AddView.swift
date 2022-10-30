@@ -38,6 +38,9 @@ struct AddView: View {
                 
         }
         .navigationTitle("Add an Item ✚")
+        .alert(isPresented: $showAlert, content: {
+            //Content
+        })
     }
     func saveButtonPresssed () {
         if textIsAppropriate() {
