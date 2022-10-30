@@ -20,9 +20,7 @@ struct AddView: View {
                     .background(Color(.lightGray).opacity(0.15))
                 .cornerRadius(10)
                 
-                Button(action: {
-                
-                }, label: {
+                Button(action: saveButtonPresssed, label: {
                     Text("Save".uppercased())
                         .foregroundColor(.white)
                         .font(.headline)
@@ -36,6 +34,9 @@ struct AddView: View {
                 
         }
         .navigationTitle("Add an Item ✚")
+    }
+    func saveButtonPresssed () {
+        
     }
 }
 
