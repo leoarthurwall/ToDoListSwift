@@ -67,10 +67,10 @@
 		6CE7A4C9290944CF0010D271 /* ToDoListSwift */ = {
 			isa = PBXGroup;
 			children = (
+				6CE7A4CA290944CF0010D271 /* ToDoListSwiftApp.swift */,
 				6CE7A4F4290BD89B0010D271 /* Views */,
 				6C6F6654290D3183009E417F /* ViewModel */,
 				6CE7A4FB290D19F30010D271 /* Models */,
-				6CE7A4CA290944CF0010D271 /* ToDoListSwiftApp.swift */,
 				6CE7A4CE290944D20010D271 /* Assets.xcassets */,
 				6CE7A4D0290944D20010D271 /* Preview Content */,
 			);

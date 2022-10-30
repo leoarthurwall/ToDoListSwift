@@ -8,7 +8,9 @@
 import Foundation
 
 //when we create ListViewModel, it will immediately call the getItems function upon initiation and append the newitems to the items array
-class ListViewModel {
+
+
+class ListViewModel: ObservableObject {
     
     @Published var items: [ItemModel] = []
     
