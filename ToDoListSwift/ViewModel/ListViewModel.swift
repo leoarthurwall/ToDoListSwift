@@ -25,7 +25,9 @@ class ListViewModel: ObservableObject {
             ItemModel(title: "this is the third", isCompleted: true),
             ItemModel(title: "this is the forth", isCompleted: false),
             ItemModel(title: "this is the fifth", isCompleted: false),
-            ItemModel(title: "this is the sixth", isCompleted: true)
+            ItemModel(title: "this is the sixth", isCompleted: true),
+            ItemModel(title: "this is the seventh", isCompleted: false)
+
 
         ]
         items.append(contentsOf: newItems)
