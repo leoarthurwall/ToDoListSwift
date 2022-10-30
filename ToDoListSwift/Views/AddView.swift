@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AddView: View {
-    
+    @EnvironmentObject var listViewModel: ListViewModel
     @State var textFieldText: String = ""
     
     var body: some View {
@@ -45,5 +45,6 @@ struct AddView_Previews: PreviewProvider {
         NavigationView {
             AddView()
         }
+        .environmentObject(ListViewModel())
     }
 }
