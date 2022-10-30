@@ -21,8 +21,8 @@ struct ItemModel: Identifiable {
         self.title = title
         self.isCompleted = isCompleted
     }
-    //UPDATES ItemModel - uses same id & title and toggled isCompleted status
-    func updateCompleted() -> ItemModel {
+    //UPDATES ItemModel - uses same id & title and toggled isCompleted status. ItemModel can only be updated through this funcion.
+    func updateCompletion() -> ItemModel {
         return ItemModel(id: id, title: title, isCompleted: !isCompleted)
     }
 }
