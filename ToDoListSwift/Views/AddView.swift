@@ -37,9 +37,11 @@ struct AddView: View {
         .navigationTitle("Add an Item ✚")
     }
     func saveButtonPresssed () {
-        listViewModel.addItem(title: textFieldText)
-        //tells presentation mode to go back to prev page once button is actioned
-        presentationMode.wrappedValue.dismiss()
+        if textIsAppropriate() {
+            listViewModel.addItem(title: textFieldText)
+            //tells presentation mode to go back to prev page once button is actioned
+            presentationMode.wrappedValue.dismiss()
+        }
     }
     func textIsAppropriate () -> Bool {
         if textFieldText.count < 3 {
