@@ -38,9 +38,14 @@ class ListViewModel: ObservableObject {
 //        ]
 //        items.append(contentsOf: newItems)
         // trys to get data from itemsKey (if exists)
-        guard let data = UserDefaults.standard.data(forKey: itemsKey) else { return }
+        guard
+            let data = UserDefaults.standard.data(forKey: itemsKey),
         // decodes data from JSON format back to ItemsModel array.
-        guard let savedItem = try? JSONDecoder().decode([ItemModel].self, from: data) else { return }
+            let savedItems = try? JSONDecoder().decode([ItemModel].self, from: data)
+        else { return }
+        
+        self.items = savedItems
+        
     }
     //deleteItem and moveItem are referencing the items array var above
     func deleteItem(indexSet: IndexSet) {
