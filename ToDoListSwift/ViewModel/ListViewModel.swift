@@ -13,6 +13,7 @@ import Foundation
 class ListViewModel: ObservableObject {
     
     @Published var items: [ItemModel] = []
+    let itemsKey = "items_list"
     
     init(){
         getItems()
@@ -51,8 +52,14 @@ class ListViewModel: ObservableObject {
             items[index] = item.updateCompletion()
         }
     }
+    
+    // function to persist list items
+    // encodes the items in the items array into JSON data and puts it into the UserDefaults.
+    // the for key is needed when we what to decode the data back again. It is set as a variable outside of the function.
     func saveItems() {
-        
+        if let encodedData = try? JSONEncoder().encode(items) {
+            UserDefaults.standard.set(encodedData, forKey: itemsKey)
+        }
     }
     
 }
