@@ -25,18 +25,19 @@ class ListViewModel: ObservableObject {
     }
     
     func getItems() {
-        let newItems = [
-            ItemModel(title: "this is the first title", isCompleted: false),
-            ItemModel(title: "this is the second title", isCompleted: true),
-            ItemModel(title: "this is the third", isCompleted: true),
-            ItemModel(title: "this is the forth", isCompleted: false),
-            ItemModel(title: "this is the fifth", isCompleted: false),
-            ItemModel(title: "this is the sixth", isCompleted: true),
-            ItemModel(title: "this is the seventh", isCompleted: false)
-
-
-        ]
-        items.append(contentsOf: newItems)
+//        let newItems = [
+//            ItemModel(title: "this is the first title", isCompleted: false),
+//            ItemModel(title: "this is the second title", isCompleted: true),
+//            ItemModel(title: "this is the third", isCompleted: true),
+//            ItemModel(title: "this is the forth", isCompleted: false),
+//            ItemModel(title: "this is the fifth", isCompleted: false),
+//            ItemModel(title: "this is the sixth", isCompleted: true),
+//            ItemModel(title: "this is the seventh", isCompleted: false)
+//
+//
+//        ]
+//        items.append(contentsOf: newItems)
+        guard let data = UserDefaults.standard.data(forKey: itemsKey) else { return }
     }
     //deleteItem and moveItem are referencing the items array var above
     func deleteItem(indexSet: IndexSet) {
