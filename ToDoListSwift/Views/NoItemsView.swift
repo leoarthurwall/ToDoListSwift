@@ -29,7 +29,7 @@ struct NoItemsView: View {
                         .background(animate ? secondaryAccentColor: Color.accentColor)
                         .cornerRadius(10)
                 })
-                .padding(.horizontal, animate ? 20 : 40)
+                .padding(.horizontal, animate ? 15 : 20)
                 .shadow(
                     color: animate ? secondaryAccentColor.opacity(0.7): Color.accentColor.opacity(0.7),
                     radius: animate ? 30 : 10,
