@@ -9,12 +9,18 @@ import SwiftUI
 
 struct NoItemsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Text("hello no items.")
+        }
+        .frame(width: .infinity, height: .infinity)
     }
 }
 
 struct NoItemsView_Previews: PreviewProvider {
     static var previews: some View {
-        NoItemsView()
+        NavigationView {
+            NoItemsView()
+                .navigationTitle("Title")
+        }
     }
 }
