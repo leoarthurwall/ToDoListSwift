@@ -30,8 +30,12 @@ struct NoItemsView: View {
             }
             .multilineTextAlignment(.center)
             .padding(40)
+            .onAppear(perform: addAnimation)
         }
         .frame(width: .infinity, height: .infinity)
+    }
+    func addAnimation() {
+        
     }
 }
 
