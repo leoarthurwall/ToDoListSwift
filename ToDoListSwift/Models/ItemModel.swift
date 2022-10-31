@@ -9,7 +9,9 @@ import Foundation
 
 //Immutable Struct
 
-struct ItemModel: Identifiable {
+// NOTE - Codable enables ItemModel to be decoded and encoded
+
+struct ItemModel: Identifiable, Codable {
     let id: String
     let title: String
     let isCompleted : Bool

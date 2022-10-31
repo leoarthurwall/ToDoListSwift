@@ -51,5 +51,8 @@ class ListViewModel: ObservableObject {
             items[index] = item.updateCompletion()
         }
     }
+    func saveItems() {
+        
+    }
     
 }
