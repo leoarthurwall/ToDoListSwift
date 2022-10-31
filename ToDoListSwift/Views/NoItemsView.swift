@@ -35,7 +35,11 @@ struct NoItemsView: View {
         .frame(width: .infinity, height: .infinity)
     }
     func addAnimation() {
-        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            withAnimation(.easeInOut) {
+                animate.toggle()
+            }
+        }
     }
 }
 
