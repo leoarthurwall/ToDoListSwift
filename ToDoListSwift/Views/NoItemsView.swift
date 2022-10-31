@@ -18,6 +18,7 @@ struct NoItemsView: View {
                     .font(.title)
                     .fontWeight(.semibold)
                 Text("Need to do something? Get it off your mind by adding it to the list. Mark as complete, change it's priority or even delete the list item all together. The choice is yours.")
+                    .padding(.bottom, 40)
                 NavigationLink(destination: AddView(), label: {
                     Text("Add Something")
                         .foregroundColor(.white)
