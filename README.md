@@ -31,3 +31,7 @@ Learning XCode has been an exciting journey, in which just 10 days prior to this
 - Storyboards
 - Connecting repo to Github & commiting changes
 - Understanding of the SwiftProgramming language and the XCode library 
+
+## Deploying to the App Store
+
+If I were to deploy this app to the app store, these are the steps I would take:
