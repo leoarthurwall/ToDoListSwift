@@ -10,8 +10,8 @@ import SwiftUI
 struct NoItemsView: View {
     var body: some View {
         ScrollView {
-            VStack {
-                Text("No items on your list!")
+            VStack(spacing: 10) {
+                Text("Your list is empty!")
                     .font(.title)
                     .fontWeight(.semibold)
                 Text("Need to do something? Get it off your mind by adding it to the list. Mark as complete, change it's priority or even delete the list item all together. The choice is yours.")
@@ -24,8 +24,9 @@ struct NoItemsView: View {
                         .background(Color.accentColor)
                         .cornerRadius(10)
                 })
-                    
             }
+            .multilineTextAlignment(.center)
+            .padding(40)
         }
         .frame(width: .infinity, height: .infinity)
     }
