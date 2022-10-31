@@ -12,7 +12,12 @@ import Foundation
 
 class ListViewModel: ObservableObject {
     
-    @Published var items: [ItemModel] = []
+    @Published var items: [ItemModel] = [] {
+        // computed property - swift function (didSet) get called any time the items array gets changed (like, useEffect)
+        didSet {
+            saveItems()
+        }
+    }
     let itemsKey = "items_list"
     
     init(){
