@@ -25,10 +25,15 @@ struct NoItemsView: View {
                         .font(.headline)
                         .frame(maxWidth: .infinity)
                         .frame(height: 55)
-                        .background(animate ? Color.accentColor: Color.red)
+                        .background(animate ? Color.red: Color.accentColor)
                         .cornerRadius(10)
                 })
-                .padding(.horizontal, animate ? 10 : 40)
+                .padding(.horizontal, animate ? 20 : 40)
+                .shadow(
+                    color: animate ? Color.red.opacity(0.7): Color.accentColor.opacity(0.7),
+                    radius: animate ? 30 : 10,
+                    x: 0.0,
+                    y: animate ? 50 : 30)
                 .scaleEffect( animate ? 1.1 : 1.0)
                 .offset(y: animate ? -7 : 0)
             }
