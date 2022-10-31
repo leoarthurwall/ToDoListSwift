@@ -27,6 +27,7 @@ struct NoItemsView: View {
                         .background(animate ? Color.accentColor: Color.red)
                         .cornerRadius(10)
                 })
+                .padding(.horizontal, animate ? 40 : 10)
             }
             .multilineTextAlignment(.center)
             .padding(40)
