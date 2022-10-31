@@ -14,7 +14,7 @@ struct ListView: View {
     var body: some View {
         ZStack {
             if listViewModel.items.isEmpty {
-                Text("No Items")
+                NoItemsView()
             } else {
                 List {
                     ForEach( listViewModel.items) { item in
