@@ -23,7 +23,7 @@
 		6C6F6655290D319A009E417F /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		6C8B33B5290FEA3700576350 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		6C8B33B729102CFF00576350 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6CE7A4C7290944CF0010D271 /* ToDoListSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE7A4C7290944CF0010D271 /* iTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE7A4CA290944CF0010D271 /* ToDoListSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListSwiftApp.swift; sourceTree = "<group>"; };
 		6CE7A4CE290944D20010D271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CE7A4D1290944D20010D271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		6CE7A4C8290944CF0010D271 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CE7A4C7290944CF0010D271 /* ToDoListSwift.app */,
+				6CE7A4C7290944CF0010D271 /* iTask.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			);
 			name = ToDoListSwift;
 			productName = ToDoListSwift;
-			productReference = 6CE7A4C7290944CF0010D271 /* ToDoListSwift.app */;
+			productReference = 6CE7A4C7290944CF0010D271 /* iTask.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +329,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.leowall.netlify.ToDoListSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iTask;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,7 +358,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.leowall.netlify.ToDoListSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iTask;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
