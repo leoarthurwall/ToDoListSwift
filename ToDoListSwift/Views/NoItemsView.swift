@@ -24,7 +24,7 @@ struct NoItemsView: View {
                         .font(.headline)
                         .frame(maxWidth: .infinity)
                         .frame(height: 55)
-                        .background(Color.accentColor)
+                        .background(animate ? Color.accentColor: Color.red)
                         .cornerRadius(10)
                 })
             }
@@ -37,7 +37,12 @@ struct NoItemsView: View {
     func addAnimation() {
         guard !animate else { return }
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-            withAnimation(.easeInOut) {
+            withAnimation(
+            Animation
+                .easeInOut(duration: 2.0)
+                .repeatForever()
+            )
+                 {
                 animate.toggle()
             }
         }
