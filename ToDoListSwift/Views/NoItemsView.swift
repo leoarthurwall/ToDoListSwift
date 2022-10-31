@@ -10,7 +10,13 @@ import SwiftUI
 struct NoItemsView: View {
     var body: some View {
         ScrollView {
-            Text("hello no items.")
+            VStack {
+                Text("Currently no items!")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                
+
+            }
         }
         .frame(width: .infinity, height: .infinity)
     }
