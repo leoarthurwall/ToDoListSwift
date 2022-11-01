@@ -1,6 +1,6 @@
 # ToDoListSwift
 
-Welcome to iTask - the task app made using XCode and SwiftUI
+Welcome to iTask - the task app developed using XCode and SwiftUI.
 
 iTask was a great project that enabled me to learn a number of fundamental SwiftUI concepts:
 
@@ -9,13 +9,17 @@ iTask was a great project that enabled me to learn a number of fundamental Swift
 - CRUD functionality: Add task, toggle complete, change list order, delete task.
 - Persisting Data: encoding and decoding JSON
 - Animations, Launch Screen, App Logo
-- Responsiveness: iPhone & iPad, Light & Dark mode
+- Responsiveness: iPhone & iPad, Light & Dark mode, Portrait & Landscape orientation.
+
+![Simulator Screen Shot - iPhone 13 - 2022-11-01 at 11 29 36](https://user-images.githubusercontent.com/99083396/199213961-ba6f6a4e-0558-413b-9c5f-e327a4b71517.png)
+
 
 ## Video Demonstration
 
 Check out this video to see the app in action.
 
 https://user-images.githubusercontent.com/99083396/199110026-32cb98d1-9a51-4d63-840a-38082e2938d2.mp4
+
 
 ## XCode learning experience
 
@@ -28,6 +32,8 @@ Learning XCode has been an exciting journey, and with just 10 days prior to this
 - Storyboards
 - Connecting XCode repo to Github & commiting changes
 - Understanding of the Swift Programming language (syntax) and the XCode library 
+
+![Simulator Screen Shot - iPhone 13 - 2022-11-01 at 11 29 47](https://user-images.githubusercontent.com/99083396/199213984-e0694f43-6ed1-44fc-88e2-605db6d87639.png)
 
 ## Deploying to the App Store
 
