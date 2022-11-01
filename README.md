@@ -38,3 +38,10 @@ Learning XCode has been an exciting journey, and with just 10 days prior to this
 ## Deploying to the App Store
 
 If I were to deploy this app to the app store, these are the steps I would take:
+
+1. Create an iOS distribution provisioning profile and distribution certificate.
+2. Create an App Store Connect record for the app.
+3. Archive and upload the app using Xcode.
+4. Configure the app's metadata and further details in its App Store Connect record.
+5. Submit the app for review.
+6. Check on the status of your app (fingers crossed it is successful)!
