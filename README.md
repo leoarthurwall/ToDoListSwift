@@ -52,4 +52,9 @@ Each step goes into further detail, and the process is well documented online. S
 
 With no experience with SwiftUI or XCode, my plan was to gain as much exposure as possible. So I took on a number of tutorials and projects, and layered the skills and experience. Here are links to my other SwiftUI projects, in case you'd like a glance at my 10-day SwiftUI journey. All the repos can be found on my GitHub profile too. 
 
-1 . 
+1. [Card game](https://github.com/leoarthurwall/FirstSwift)
+2. [Slot maching game](https://github.com/leoarthurwall/SecondSwiftProject)
+3. [Random Photo API](https://github.com/leoarthurwall/SwiftRandomPhoto)
+4. [Login Page](https://github.com/leoarthurwall/LogInSwift)
+
+[my GitHub profile](https://github.com/leoarthurwall)
