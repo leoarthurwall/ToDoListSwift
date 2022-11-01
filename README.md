@@ -56,5 +56,4 @@ With no experience with SwiftUI or XCode, my plan was to gain as much exposure a
 2. [Slot maching game](https://github.com/leoarthurwall/SecondSwiftProject)
 3. [Random Photo API](https://github.com/leoarthurwall/SwiftRandomPhoto)
 4. [Login Page](https://github.com/leoarthurwall/LogInSwift)
-
-[my GitHub profile](https://github.com/leoarthurwall)
+5. [my GitHub profile](https://github.com/leoarthurwall)
