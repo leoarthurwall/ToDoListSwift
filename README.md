@@ -1,6 +1,6 @@
 # ToDoListSwift
 
-Welcome to iTask - the task app developed using XCode and SwiftUI.
+Welcome to iTask - the todo list app developed using XCode and SwiftUI.
 
 iTask was a great project that enabled me to learn a number of fundamental SwiftUI concepts:
 
