@@ -2,35 +2,32 @@
 
 Welcome to iTask - the task app made using XCode and SwiftUI
 
-iTask was a great project that covers a number of fundamental concepts.
+iTask was a great project that enabled me to learn a number of fundamental SwiftUI concepts:
 
 - Model-View-ViewModel (MVVM) architecture
-- Model
-- View: Modifiers, Multiple Views, Linking between Views
-- ViewModel
-- Building User Interfaces
-- CRUD functionality
+- User Interface: Stacks, Spacers, Modifiers, Multiple Views, Linking between Views, Seemless UX, conditional display.
+- CRUD functionality: Add task, toggle complete, change list order, delete task.
 - Persisting Data: encoding and decoding JSON
-- Animations, Launch Screen, Logo
+- Animations, Launch Screen, App Logo
 - Responsiveness: iPhone & iPad, Light & Dark mode
 
 ## Video Demonstration
 
-come on a quick journey through the app to see what it can do
+Check out this video to see the app in action.
 
 https://user-images.githubusercontent.com/99083396/199110026-32cb98d1-9a51-4d63-840a-38082e2938d2.mp4
 
-## XCode experience
+## XCode learning experience
 
-Learning XCode has been an exciting journey, in which just 10 days prior to this being written, I had no experience on the IDE. Since then, I've gotten to grips with how to make a fully functioning app. Here are some of the key learning points:
+Learning XCode has been an exciting journey, and with just 10 days prior to this being written, I had no experience using the XCode IDE. Since then, I've gotten to grips with how to make a fully functioning app. Here are some of the key learning points:
 
 - Use of the canvas preview
 - The device simulator
 - File and folder organisation
 - SwiftUI files
 - Storyboards
-- Connecting repo to Github & commiting changes
-- Understanding of the SwiftProgramming language and the XCode library 
+- Connecting XCode repo to Github & commiting changes
+- Understanding of the Swift Programming language (syntax) and the XCode library 
 
 ## Deploying to the App Store
 
