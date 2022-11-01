@@ -45,3 +45,11 @@ If I were to deploy this app to the app store, these are the steps I would take:
 4. Configure the app's metadata and further details in its App Store Connect record.
 5. Submit the app for review.
 6. Check on the status of your app (fingers crossed it is successful)!
+
+Each step goes into further detail, and the process is well documented online. So for the sake of keeping the readme concise, I will keep the steps as a high-level overview.
+
+## Other SwiftUI Projects
+
+With no experience with SwiftUI or XCode, my plan was to gain as much exposure as possible. So I took on a number of tutorials and projects, and layered the skills and experience. Here are links to my other SwiftUI projects, in case you'd like a glance at my 10-day SwiftUI journey. All the repos can be found on my GitHub profile too. 
+
+1 . 
